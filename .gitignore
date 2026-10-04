@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Runtime logs
+*.log
+err.log
+run.log
+
+# This app keeps its config (including your API key) OUTSIDE the repo,
+# in %APPDATA%\ai-huaci\. These entries are here only in case someone
+# copies a config in by accident.
+config.json
+settings.json
+.env
+
+# Editor / OS junk
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.swp
